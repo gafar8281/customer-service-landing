@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { cn } from "@/lib/utils";
 import {
   Accordion,
   AccordionContent,
@@ -61,11 +62,12 @@ const categories = [
 
 interface FaqProps {
   headerTag?: "h1" | "h2";
+  className?: string;
 }
 
-export function Faq({ headerTag: Heading = "h2" }: FaqProps) {
+export function Faq({ headerTag: Heading = "h2", className }: FaqProps) {
   return (
-    <section className="container py-20">
+    <section className={cn("container py-30", className)}>
       <div className="grid gap-12 lg:grid-cols-2">
         <div className="flex flex-col gap-6">
           <Heading className="font-heading text-3xl font-bold md:text-4xl">

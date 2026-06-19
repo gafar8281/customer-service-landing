@@ -4,7 +4,7 @@ import { ContactForm } from "./contact-form";
 
 export function Contact() {
   return (
-    <section className="container py-20">
+    <section className="container py-30 md:pt-40">
       <div className="mx-auto max-w-3xl text-center">
         <h1 className="font-heading text-4xl font-bold md:text-5xl">
           Get in touch

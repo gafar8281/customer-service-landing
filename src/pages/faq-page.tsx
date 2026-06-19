@@ -7,7 +7,7 @@ export function FaqPage() {
   return (
     <>
       <Background variant="top">
-        <Faq headerTag="h1" />
+        <Faq headerTag="h1" className="md:pt-40" />
       </Background>
       <DashedLine className="my-0" />
       <Testimonials dashedLineClassName="hidden" />
