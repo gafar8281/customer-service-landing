@@ -13,7 +13,7 @@ export function HomePage() {
         <Hero />
         <Logos />
         <Features />
-        <ResourceAllocation />
+        {/* <ResourceAllocation /> */}
       </Background>
       <Testimonials />
       <Background variant="bottom">

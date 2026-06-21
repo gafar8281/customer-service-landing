@@ -122,12 +122,12 @@ export function Footer() {
             x="50%"
             y="100%"
             textAnchor="middle"
-            fontSize="180"
-            fontWeight="700"
+            fontSize="170"
+            fontWeight="550"
             fontFamily="DM Sans, sans-serif"
             fill="url(#footer-grad)"
           >
-            Mainline
+            Customer
           </text>
         </svg>
       </div>

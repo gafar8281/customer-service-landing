@@ -3,15 +3,14 @@ import _Marquee from "react-fast-marquee";
 const Marquee = (_Marquee as any).default as React.ComponentType<any>;
 
 const companies = [
-  "Mercury",
-  "Watershed",
-  "Retool",
-  "Descript",
-  "Perplexity",
-  "Monzo",
-  "Ramp",
-  "Raycast",
-  "Arc",
+  "Odoo",
+  "POSBANK",
+  "ZKTeco",
+  "CITY systems",
+  "Cisco",
+  "Hikvision",
+  "Alhua",
+  "DrayTek"
 ];
 
 const topRow = companies.slice(0, 4);
