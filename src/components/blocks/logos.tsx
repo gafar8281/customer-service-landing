@@ -28,7 +28,7 @@ export function Logos() {
   return (
     <section className="container py-12">
       <p className="mb-8 text-center text-sm text-muted-foreground">
-        Trusted by teams at world-class companies
+        Our Technology Partners
       </p>
 
       {/* Desktop: static grid */}

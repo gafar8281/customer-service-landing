@@ -16,7 +16,7 @@ import {
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { DashedLine } from "@/components/dashed-line";
-import heroImage from "@/assets/odoo_ui.png";
+import heroImage from "@/assets/Untitled design.png";
 
 // const bullets = [
 //   { icon: CircleDot, label: "Real-time resource tracking" },
@@ -43,8 +43,8 @@ export function Hero() {
           Powering Saudi Businesses with Smart Technology
           </h1>
           <p className="mt-6 text-lg text-muted-foreground">
-          Business software, security systems, networking, and POS solutions — all from one 
-          trusted provider in Al Hofuf. We handle the technology so you can focus on your business.
+          Business software, security systems, networking, and POS solutions — all from one trusted provider. We take care of your technology needs, so you can focus on growing your business.
+
           </p>
 
           <DashedLine className="my-8" />

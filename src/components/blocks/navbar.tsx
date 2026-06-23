@@ -1,17 +1,18 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { ChevronDown, Menu, X } from "lucide-react";
+import custLogo from "@/assets/cust-logo3.png";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { cn } from "@/lib/utils";
 
 const navItems = [
   {
-    label: "Features",
+    label: "Services",
     href: "#",
     dropdownItems: [
       { title: "Hero", href: "/#hero", description: "The main headline and value proposition" },
-      { title: "Resource Allocation", href: "/#resource-allocation", description: "See how Mainline handles complex workflows" },
+      // { title: "Resource Allocation", href: "/#resource-allocation", description: "See how Mainline handles complex workflows" },
     ],
   },
   { label: "About Us", href: "/about" },
@@ -35,9 +36,7 @@ export function Navbar() {
       <nav className="flex w-full max-w-[700px] items-center justify-between rounded-full border border-border bg-background/80 px-6 py-3 shadow-sm backdrop-blur-md">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 font-heading text-lg font-bold">
-          <div className="flex size-7 items-center justify-center rounded-md bg-primary text-primary-foreground text-xs font-black">
-            M
-          </div>
+          <img src={custLogo} alt="Customer logo" className="h-7 w-auto" />
           Customer
         </Link>
 

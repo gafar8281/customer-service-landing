@@ -1,10 +1,10 @@
 import { DashedLine } from "@/components/dashed-line";
 
 const stats = [
-  { value: "$150M", label: "Raised" },
-  { value: "20K", label: "Companies" },
-  { value: "1.3B", label: "Monthly transactions" },
-  { value: "1.5K", label: "Connections per minute" },
+  { value: "100+", label: "Businesses Served" },
+  { value: "10+", label: "Years of Experience" },
+  { value: "8+", label: "Service Categories" },
+  { value: "24/7", label: "Technical Support" },
 ];
 
 export function AboutHero() {
@@ -12,11 +12,10 @@ export function AboutHero() {
     <section className="container py-30 md:pt-40">
       <div className="mx-auto max-w-3xl text-center">
         <h1 className="font-heading text-4xl font-bold md:text-5xl lg:text-6xl">
-          Democratising quality software
+          Who We Are
         </h1>
         <p className="mt-6 text-lg text-muted-foreground">
-          We believe every team — regardless of size or budget — deserves
-          world-class project management tools.
+          Your Trusted Technology Partner in Al Hofuf
         </p>
       </div>
 

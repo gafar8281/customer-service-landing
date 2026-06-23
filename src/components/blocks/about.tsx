@@ -63,8 +63,8 @@ export function About() {
             label="Our mission"
             heading="Built for teams that ship"
             paragraphs={[
-              "Mainline was founded in 2021 with a simple idea: project management software should help teams do their best work, not add more admin to their day.",
-              "We obsess over the small details that make a big difference — intuitive interfaces, lightning-fast performance, and integrations that actually work.",
+              "To provide businesses across Saudi Arabia with integrated technology solutions that simplify operations, ensure compliance, and drive growth— supported by expert installation, training, and ongoing technical care.",
+              // "We obsess over the small details that make a big difference — intuitive interfaces, lightning-fast performance, and integrations that actually work.",
             ]}
           />
           <ImageSection
@@ -86,13 +86,13 @@ export function About() {
             titles={["Team 2", "Office 2"]}
           />
           <TextSection
-            label="Join us"
+            label="Our Vision"
             heading="We're hiring across the region"
             paragraphs={[
-              "We're a remote-first team with offices in Riyadh and Dubai. We're growing fast and looking for exceptional people who care deeply about the products they build.",
-              "If you're passionate about developer tooling, design, or growth — we'd love to hear from you.",
+              "To be the most trusted technology partner for businesses in the Eastern Province, known for quality, reliability, and exceptional customer support.",
+              // "If you're passionate about developer tooling, design, or growth — we'd love to hear from you.",
             ]}
-            cta={{ label: "View open roles", href: "/contact" }}
+            // cta={{ label: "View open roles", href: "/contact" }}
           />
         </div>
       </div>

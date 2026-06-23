@@ -12,49 +12,56 @@ const categories = [
     category: "Getting started",
     items: [
       {
-        question: "How do I get started with Mainline?",
+        question: "What areas do you serve?",
         answer:
-          "Sign up for a free trial at our website. No credit card required. You can invite your team and start a project in under five minutes.",
+          "We are based in Al Nayfiyah, Al Hofuf and proudly serve businesses across the Eastern Province of Saudi Arabia. Contact us to discuss your location and we will do our best to accommodate your needs.",
       },
       {
-        question: "What does the free trial include?",
+        question: "Which brands do you work with?",
         answer:
-          "The free trial gives you full access to all features for 14 days, including unlimited projects, team members, and integrations.",
+          "We partner with industry-leading brands including Odoo, Hikvision, Dahua, Cisco, Dell, HP, Lenovo, ZKTeco, POSBANK, and SUNMI — ensuring you always get reliable, proven technology.",
+      },
+    ],
+  },
+  // {
+  //   category: "Software & Accounting",
+  //   items: [
+  //     {
+  //       question: "Do your software solutions support Saudi VAT and Fatoora e-invoicing?",
+  //       answer:
+  //       "Yes. All our accounting and POS software solutions are fully compliant with Saudi VAT regulations, Fatoora e-invoicing requirements, and Zakat Authority integration — so your business stays compliant from day one.",
+  //     },
+  //     {
+  //       question: "Can your software be used for restaurants and grocery stores?",
+  //       answer:
+  //         "Yes. We offer specialized software for restaurants and cafés with kitchen-to-cashier integration, food cost tracking, and profit/loss reports — as well as grocery and hypermarket solutions with barcode support and inventory management.",
+  //     },
+  //   ],
+  // },
+
+  
+  {
+    category: "Security Systems",
+    items: [
+      {
+        question: "What security systems do you install?",
+        answer:
+          "We install and configure CCTV surveillance cameras, access control systems, fingerprint attendance devices, intercom systems, electronic gates, and vehicle tracking — using trusted brands like Hikvision, Dahua, and EZVIZ.",
+      },
+      {
+        question: "Do you offer maintenance for security systems?",
+        answer:
+          "Yes. We provide annual maintenance contracts for all security systems we install, ensuring your equipment stays fully operational and up to date throughout the year.",
       },
     ],
   },
   {
-    category: "Pricing & plans",
+    category: "Support & Training",
     items: [
       {
-        question: "How does pricing work?",
+        question: "Do you offer installation and setup services?",
         answer:
-          "Mainline is priced per seat, per month. We offer Starter, Growth, and Enterprise plans to fit teams of all sizes. Annual billing saves you 20%.",
-      },
-      {
-        question: "Can I change my plan at any time?",
-        answer:
-          "Yes. You can upgrade, downgrade, or cancel your plan at any time from your account settings. Changes take effect at the next billing cycle.",
-      },
-      {
-        question: "Do you offer discounts for startups or non-profits?",
-        answer:
-          "Yes, we offer special pricing for qualifying startups and non-profit organisations. Contact our sales team for details.",
-      },
-    ],
-  },
-  {
-    category: "Technical & integrations",
-    items: [
-      {
-        question: "Which tools does Mainline integrate with?",
-        answer:
-          "Mainline integrates with Jira, Notion, Asana, Confluence, Google Drive, Slack, GitHub, and many more via our open API and Zapier connector.",
-      },
-      {
-        question: "Is my data secure?",
-        answer:
-          "Absolutely. Mainline is SOC 2 Type II certified and uses end-to-end encryption. Your data is stored in ISO 27001-certified data centres.",
+        "Absolutely. We handle everything from delivery and installation to configuration and staff training — whether it is a CCTV system, POS hardware, network infrastructure, or accounting software.",
       },
     ],
   },

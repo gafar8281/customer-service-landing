@@ -5,7 +5,6 @@ import { motion } from "motion/react";
 import { CheckCircle } from "lucide-react";
 import { formSchema, type FormValues } from "@/lib/form-schema";
 import { Button } from "@/components/ui/button";
-import { Checkbox } from "@/components/ui/checkbox";
 import {
   Form,
   FormControl,
@@ -36,7 +35,6 @@ export function ContactForm() {
       company: "",
       employees: "",
       message: "",
-      agree: undefined,
     },
   });
 
@@ -174,36 +172,6 @@ export function ContactForm() {
                 />
               </FormControl>
               <FormMessage />
-            </FormItem>
-          )}
-        />
-
-        <FormField
-          control={form.control}
-          name="agree"
-          render={({ field }) => (
-            <FormItem className="flex flex-row items-start gap-3 space-y-0">
-              <FormControl>
-                <Checkbox
-                  checked={field.value === true}
-                  onCheckedChange={(checked) =>
-                    field.onChange(checked === true ? true : undefined)
-                  }
-                />
-              </FormControl>
-              <div className="space-y-1 leading-none">
-                <FormLabel className="cursor-pointer font-normal">
-                  I agree to the{" "}
-                  <a
-                    href="/privacy"
-                    className="underline underline-offset-4 hover:text-primary"
-                  >
-                    Privacy Policy
-                  </a>{" "}
-                  and consent to being contacted by Mainline.
-                </FormLabel>
-                <FormMessage />
-              </div>
             </FormItem>
           )}
         />

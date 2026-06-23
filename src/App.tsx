@@ -6,8 +6,8 @@ import { HomePage } from "@/pages/home";
 import { AboutPage } from "@/pages/about-page";
 import { ContactPage } from "@/pages/contact-page";
 import { FaqPage } from "@/pages/faq-page";
-import { PrivacyPage } from "@/pages/privacy-page";
 import { NotFoundPage } from "@/pages/not-found";
+import { FeatureDetailPage } from "@/pages/feature-detail-page";
 
 function Layout() {
   return (
@@ -31,7 +31,7 @@ export default function App() {
             <Route path="about" element={<AboutPage />} />
             <Route path="contact" element={<ContactPage />} />
             <Route path="faq" element={<FaqPage />} />
-            <Route path="privacy" element={<PrivacyPage />} />
+            <Route path="features/:slug" element={<FeatureDetailPage />} />
           </Route>
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
