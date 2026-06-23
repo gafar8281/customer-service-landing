@@ -87,7 +87,7 @@ export function Footer() {
         </div>
       </div>
 
-      <div className="relative h-48 w-full overflow-hidden text-foreground opacity-10 dark:text-primary dark:opacity-[0.13]">
+      <div className="relative aspect-[1220/192] w-full overflow-hidden text-foreground opacity-10 dark:text-primary dark:opacity-[0.13]">
         <svg
           viewBox="0 0 1220 120"
           className="absolute bottom-0 h-full w-full"

@@ -61,7 +61,7 @@ export function About() {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <TextSection
             label="Our mission"
-            heading="Built for teams that ship"
+            heading="Driving Business Success with Smart Technology"
             paragraphs={[
               "To provide businesses across Saudi Arabia with integrated technology solutions that simplify operations, ensure compliance, and drive growth— supported by expert installation, training, and ongoing technical care.",
               // "We obsess over the small details that make a big difference — intuitive interfaces, lightning-fast performance, and integrations that actually work.",
@@ -87,7 +87,7 @@ export function About() {
           />
           <TextSection
             label="Our Vision"
-            heading="We're hiring across the region"
+            heading="Becoming the Most Trusted Technology Partner"
             paragraphs={[
               "To be the most trusted technology partner for businesses in the Eastern Province, known for quality, reliability, and exceptional customer support.",
               // "If you're passionate about developer tooling, design, or growth — we'd love to hear from you.",

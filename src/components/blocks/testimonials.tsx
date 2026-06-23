@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils";
 const testimonials = [
   {
     quote:
-      "Mainline transformed how we allocate resources. We now ship 30% faster and our PMs actually enjoy planning sprints.",
+      "Customer transformed how we allocate resources. We now ship 30% faster and our PMs actually enjoy planning sprints.",
     author: "Amy Chase",
     role: "VP of Engineering",
     company: "Mercury",
@@ -35,7 +35,7 @@ const testimonials = [
   },
   {
     quote:
-      "Mainline is the only tool that properly handles cross-team dependencies. It's been a game changer for us.",
+      "Customer is the only tool that properly handles cross-team dependencies. It's been a game changer for us.",
     author: "Kundo Marta",
     role: "Head of Operations",
     company: "Ramp",
@@ -59,7 +59,7 @@ const testimonials = [
   },
   {
     quote:
-      "We tried four other tools before Mainline. Nothing else came close to handling our complex org structure.",
+      "We tried four other tools before Customer. Nothing else came close to handling our complex org structure.",
     author: "Lena Müller",
     role: "Project Manager",
     company: "Monzo",
@@ -85,11 +85,10 @@ export function Testimonials({ className, dashedLineClassName }: TestimonialsPro
     <section className={cn("py-20", className)}>
       <div className="container">
         <h2 className="text-center font-heading text-3xl font-bold md:text-4xl">
-          Loved by teams everywhere
+          Trusted by Our Customers
         </h2>
         <p className="mt-4 text-center text-muted-foreground">
-          Don&apos;t take our word for it — hear from the teams using Mainline
-          every day.
+          Discover how we've helped businesses and individuals achieve their goals through our expertise and commitment.
         </p>
 
         <div className="relative mt-12 px-12">
