@@ -7,71 +7,53 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { cn } from "@/lib/utils";
+import cust1Image from "@/assets/Mohammed Al-Qahtani.jpeg";
+import cust2Image from "@/assets/Faisal Al-Dossari.jpeg";
+import cust3Image from "@/assets/Ahmed Al-Otaibi.jpeg";
+import cust4Image from "@/assets/person7.jpeg";
+import cust5Image from "@/assets/person_1.jpeg";
+
+
+
 
 const testimonials = [
   {
     quote:
-      "Customer transformed how we allocate resources. We now ship 30% faster and our PMs actually enjoy planning sprints.",
-    author: "Amy Chase",
-    role: "VP of Engineering",
-    company: "Mercury",
-    image: "https://i.pravatar.cc/48?u=amy-chase",
+      "Working with Customer Service was a great experience. Our Odoo system was set up smoothly, and our business is now more organized and efficient.",
+    author: "Mohammed Al-Qahtani",
+    image: cust1Image,
   },
   {
     quote:
-      "Finally, a tool that gives us the visibility we need without the spreadsheet chaos. Our team adopted it in days.",
-    author: "Jonas Kotara",
+      "Customer Service made our ZATCA e-invoicing setup simple and stress-free. They guided us through every step and made sure everything was compliant.",
+    author: "Faisal Al-Dossari",
     role: "CTO",
     company: "Watershed",
-    image: "https://i.pravatar.cc/48?u=jonas-kotara",
+    image: cust2Image,
   },
   {
     quote:
-      "The resource allocation views alone are worth the switch. We eliminated our weekly planning meetings entirely.",
-    author: "Kevin Yam",
+      "Their support team is always quick to respond. Whether it's a software question or a technical issue, they always find the right solution.",
+    author: "Ahmed Al-Otaibi",
     role: "Director of Product",
     company: "Retool",
-    image: "https://i.pravatar.cc/48?u=kevin-yam",
+    image: cust3Image,
   },
   {
     quote:
-      "Customer is the only tool that properly handles cross-team dependencies. It's been a game changer for us.",
-    author: "Kundo Marta",
+      "The POS system has made our daily operations much smoother. Sales tracking and inventory management are now much easier than before.",
+    author: "Khalid Al-Shammari",
     role: "Head of Operations",
     company: "Ramp",
-    image: "https://i.pravatar.cc/48?u=kundo-marta",
+    image: cust4Image,
   },
   {
     quote:
-      "The interface is so clean and intuitive. Our leadership team uses it daily to track progress across all initiatives.",
-    author: "Sarah Al-Rashidi",
+      "Working with Customer Service has been a great experience. Every project has been handled professionally and delivered on time.",
+    author: "Omar Al-Anazi",
     role: "CEO",
     company: "Descript",
-    image: "https://i.pravatar.cc/48?u=sarah-alrashidi",
-  },
-  {
-    quote:
-      "Integration with our existing tools was seamless. We were up and running in less than a day.",
-    author: "Omar Khalid",
-    role: "Engineering Manager",
-    company: "Arc",
-    image: "https://i.pravatar.cc/48?u=omar-khalid",
-  },
-  {
-    quote:
-      "We tried four other tools before Customer. Nothing else came close to handling our complex org structure.",
-    author: "Lena Müller",
-    role: "Project Manager",
-    company: "Monzo",
-    image: "https://i.pravatar.cc/48?u=lena-muller",
-  },
-  {
-    quote:
-      "The reporting features saved us hours every week. Stakeholders love the auto-generated status updates.",
-    author: "James Okafor",
-    role: "Program Director",
-    company: "Perplexity",
-    image: "https://i.pravatar.cc/48?u=james-okafor",
+    image: cust5Image,
   },
 ];
 
@@ -116,7 +98,7 @@ export function Testimonials({ className, dashedLineClassName }: TestimonialsPro
                       <div>
                         <p className="text-sm font-semibold">{t.author}</p>
                         <p className="text-xs text-muted-foreground">
-                          {t.role}, {t.company}
+                          {/* {t.role}, {t.company} */}
                         </p>
                       </div>
                     </div>

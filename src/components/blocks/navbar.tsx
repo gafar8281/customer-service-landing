@@ -4,16 +4,18 @@ import { ChevronDown, Menu, X } from "lucide-react";
 import custLogo from "@/assets/cust-logo3.png";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { features } from "@/lib/features-data";
 import { cn } from "@/lib/utils";
 
 const navItems = [
   {
     label: "Services",
     href: "#",
-    dropdownItems: [
-      { title: "Hero", href: "/#hero", description: "The main headline and value proposition" },
-      // { title: "Resource Allocation", href: "/#resource-allocation", description: "See how Mainline handles complex workflows" },
-    ],
+    dropdownItems: features.map((f) => ({
+      title: f.title,
+      href: `/features/${f.slug}`,
+      description: f.description,
+    })),
   },
   { label: "About Us", href: "/about" },
   { label: "FAQ", href: "/faq" },
@@ -64,7 +66,7 @@ export function Navbar() {
                   />
                 </button>
                 {openDropdown === item.label && (
-                  <div className="absolute left-0 top-full mt-2 w-56 rounded-xl border border-border bg-popover shadow-lg">
+                  <div className="absolute left-0 top-full mt-2 w-72 rounded-xl border border-border bg-popover shadow-lg">
                     {item.dropdownItems.map((child) => (
                       <Link
                         key={child.href}

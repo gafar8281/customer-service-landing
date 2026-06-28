@@ -16,7 +16,7 @@ import {
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { DashedLine } from "@/components/dashed-line";
-import heroImage from "@/assets/Untitled design.png";
+import heroImage from "@/assets/hero-image2.png";
 
 // const bullets = [
 //   { icon: CircleDot, label: "Real-time resource tracking" },

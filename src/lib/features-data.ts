@@ -1,11 +1,12 @@
 import accountingImage from "@/assets/accounting.png";
-import hardwareImage from "@/assets/hardware.png";
+import hardwareImage from "@/assets/hardware_imge2.png";
 import cctvImage from "@/assets/cctv.png";
 import perfomanceImage from "@/assets/perfomance_report.png";
-import paymentImage from "@/assets/payment_system.png";
+import paymentImage from "@/assets/payment_image2.png";
 import electronicInvImage from "@/assets/electronic_invoicing.png";
-import webDevImage from "@/assets/web_development.png";
-import designEmpImage from "@/assets/design_for_emp.png";
+import webDevImage from "@/assets/web_dev_image2.png";
+import designEmpImage from "@/assets/design_emp_image2.png";
+import inventoryImage from "@/assets/inventory_image2.png";
 
 
 
@@ -85,7 +86,7 @@ export const features: Feature[] = [
     details:
       "Take full control of your supply chain with our real-time inventory management platform. Set reorder points and get automatic purchase order suggestions before stock runs out. Track items by serial number, batch, or expiry date. Manage multiple warehouses from a single interface, and sync stock levels instantly with your e-commerce store and POS. Detailed cost-of-goods reporting gives you true margin visibility at the SKU level.",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTadlb7ouK_u2nabmnh4HPmytK_4YF0RDLwn92M45StBf1Al8v9uw_zVWM&s=10",
+      inventoryImage
   },
   {
     slug: "web-development",

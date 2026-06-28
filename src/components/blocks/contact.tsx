@@ -54,10 +54,10 @@ export function Contact() {
           <h3 className="font-heading font-semibold">Phone</h3>
           <div className="flex flex-col gap-1 text-sm text-muted-foreground">
             <a
-              href="tel:+966555620993"
+              href="tel:+966505916894"
               className="hover:text-foreground transition-colors"
             >
-              +966 55 562 0993
+              +966 50 591 6894
             </a>
           </div>
         </div>
@@ -69,10 +69,10 @@ export function Contact() {
           <h3 className="font-heading font-semibold">Email us</h3>
           <div className="flex flex-col gap-1 text-sm text-muted-foreground">
             <a
-              href="mailto:careers@mainline.sa"
+              href="mailto:x5312542@hotmail.com"
               className="hover:text-foreground transition-colors"
             >
-              info@customer.sa
+              x5312542@hotmail.com
             </a>
             {/* <a
               href="mailto:press@mainline.sa"
